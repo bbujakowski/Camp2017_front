@@ -3,6 +3,7 @@
 	background: url("../images/background-city.png") 0/cover no-repeat;
 	height: auto;
 	width: 100%;
+	// Dziwne wcięcie, tu i niżej
     text-align: center;
     color: white;
     font-family: 'Roboto Condensed', sans-serif;
@@ -54,6 +55,7 @@
         .profile-photo {
             background: url(https://images.pexels.com/photos/253758/pexels-photo-253758.jpeg?w=940&h=650&auto=compress&cs=tinysrgb) 0/cover no-repeat;
 			background-position: center;
+			// używasz margin, margin-top, margin-bottom, lepiej użyc: margin: -60px auto 10px auto;
 			margin: 0 auto;
 			margin-top: -60px;
             margin-bottom: 10px;
@@ -74,9 +76,11 @@
 			}
 			.btn {
 				background-color: inherit;
+				// komentarze tego typu są zazwyaczj to wyrzucenia
 				//margin-bottom: 60px;
 			}
 			.white-button {
+				// tu używasz #white a zaraz niżej #000, lepiej  to spójnie i #white -> #fff
 				background-color: white;
 				border-radius: 5px;
 				width: 118px;
